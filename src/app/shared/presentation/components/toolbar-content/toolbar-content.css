@@ -1,0 +1,40 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+
+  background: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+.toolbar-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.languages button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+}

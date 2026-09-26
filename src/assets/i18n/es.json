@@ -1,0 +1,27 @@
+{
+  "TOOLBAR": {
+    "TITLE": "Instituto de Recetas Culinarias",
+    "LANGUAGE": "Idioma"
+  },
+
+  "CATALOGUE": {
+    "TITLE": "Catálogo de Recetas Culinarias",
+    "CATEGORIES": "Categorías de observación",
+    "SEAFOOD": "Recetas de mariscos",
+    "VEGETARIAN": "Recetas vegetarianas",
+    "LOADING": "Cargando observaciones..."
+  },
+
+  "PRODUCT": {
+    "PLACE": "Lugar",
+    "DATE": "Observado el",
+    "USER": "Usuario",
+    "DETAILS": "Detalles de la observación"
+  },
+
+  "FOOTER": {
+    "COPYRIGHT": "Copyright @ 2026 Culinary. Todos los derechos reservados.",
+    "DEVELOPED_BY": "Desarrollado por",
+    "DEVELOPER": "u202423162 Flores Martinez, Ricardo Andres"
+  }
+}

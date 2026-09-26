@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 40px;
+  padding: 25px;
+
+  text-align: center;
+
+  border-top: 1px solid #dddddd;
+}
+
+.footer p {
+  margin: 5px 0;
+}

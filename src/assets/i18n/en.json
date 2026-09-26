@@ -1,0 +1,27 @@
+{
+  "TOOLBAR": {
+    "TITLE": "Culinary recipe Institute",
+    "LANGUAGE": "Language"
+  },
+
+  "CATALOGUE": {
+    "TITLE": "CulinaryRecipeCatalogue",
+    "CATEGORIES": "Observation categories",
+    "SEAFOOD": "Seafood recipes",
+    "VEGETARIAN": "Vegetarian recipes",
+    "LOADING": "Loading observations..."
+  },
+
+  "PRODUCT": {
+    "PLACE": "Place",
+    "DATE": "Observed on",
+    "USER": "User",
+    "DETAILS": "Observation Details"
+  },
+
+  "FOOTER": {
+    "COPYRIGHT": "Copyright @ 2026 Culinary. All rights reserved.",
+    "DEVELOPED_BY": "Developed by",
+    "DEVELOPER": "u202423162 Flores Martinez,Ricardo Andres"
+  }
+}

@@ -1,0 +1,40 @@
+<header class="toolbar">
+
+  <div class="toolbar-left">
+
+    <img
+      [src]="logoUrl"
+      alt="iNaturalist"
+      class="logo"
+    />
+
+    <span class="title">
+      {{ 'TOOLBAR.TITLE' | translate }}
+    </span>
+
+  </div>
+
+  <nav
+    class="languages"
+    [attr.aria-label]="'TOOLBAR.LANGUAGE' | translate"
+  >
+
+    <button
+      type="button"
+      (click)="changeLanguage('en')"
+    >
+      EN
+    </button>
+
+    <span>|</span>
+
+    <button
+      type="button"
+      (click)="changeLanguage('es')"
+    >
+      ES
+    </button>
+
+  </nav>
+
+</header>

@@ -1,0 +1,54 @@
+<section class="catalogue">
+
+  <div class="catalogue-header">
+
+    <h1>
+      {{ 'CATALOGUE.TITLE' | translate }}
+    </h1>
+
+    <div
+      class="category-buttons"
+      role="group"
+      [attr.aria-label]="'CATALOGUE.CATEGORIES' | translate"
+    >
+
+      <button
+        type="button"
+        [class.active]="selectedCategory === 'seafood'"
+        (click)="selectCategory('seafood')"
+      >
+        {{ 'CATALOGUE.SEAFOOD' | translate }}
+      </button>
+
+      <button
+        type="button"
+        [class.active]="selectedCategory === 'vegeterian'"
+        (click)="selectCategory('vegeterian')"
+      >
+        {{ 'CATALOGUE.VEGETERIAN' | translate }}
+      </button>
+
+    </div>
+
+  </div>
+
+  @if (loading()) {
+
+    <p class="loading">
+      {{ 'CATALOGUE.LOADING' | translate }}
+    </p>
+
+  } @else {
+
+    <div class="product-grid">
+
+      @for (product of products(); track product.id) {
+
+
+      }
+
+    </div>
+
+  }
+
+</section>

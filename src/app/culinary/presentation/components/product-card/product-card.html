@@ -1,0 +1,36 @@
+<article class="product-card">
+  <img
+    class="product-image"
+    [src]="product.imageUrl"
+    [alt]="product.title"
+  />
+
+  <div class="product-content">
+    <h2>{{ product.title }}</h2>
+
+    <p>
+      <strong>{{ 'PRODUCT.CATEGORY' | translate }}:</strong>
+      {{ product.category }}
+    </p>
+
+    <p>
+      <strong>{{ 'PRODUCT.ID' | translate }}:</strong>
+      {{ product.id }}
+    </p>
+
+  </div>
+
+  <div class="product-footer">
+    <button
+      type="button"
+      (click)="openDetails()"
+      [attr.aria-label]="
+        ('PRODUCT.DETAILS' | translate) +
+        ': ' +
+        product.title
+      "
+    >
+      {{ 'PRODUCT.DETAILS' | translate }}
+    </button>
+  </div>
+</article>
